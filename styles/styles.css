@@ -1,0 +1,40 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18 px;
+    background-color:#F8F5F2;
+}
+
+footer,header{
+background-color:burlywood;
+text-align: center;
+}
+
+.site-title {
+color: chocolate;
+padding: 20px;
+}
+
+#my-image{
+    box-shadow: 0 0 1px 2px black;
+}
+
+ul{
+    list-style: square;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav{
+background:scroll;
+border:peachpuff 5px solid;
+}
+
+nav a:active{
+    background-color: brown;
+}
