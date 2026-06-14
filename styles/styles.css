@@ -12,16 +12,26 @@ body{
 
 footer,header{
     background-color:#ffbee3bf;
+    /*this code was used to add a specific color background to the the selected zones */
     text-align: center;
     /*this code is used to align text to the left, center or right on the site. I used it to specifically align the text in the header and footer to the center of the page*/
 }
-/* Selecting multiple elements using "," in between them permits to target them specifically, to display them according to my liking . I used the code to display all headings the same way*/
-h1, h2, h3, h4{
+
+/* Selecting multiple elements using "," in between them permits to target them specifically, to display them according to my liking . I used the code to display those headings the same way*/
+
+h2, h3, h4{
     color: purple;
-        /* */
+        /*I used this code to specifically target those headings to be the same color */
+    display: inline-block;
+        /* I used this code to display the block only around the headings and not all the way*/
+    border: #ec6dfa 5px groove;
+        /*I used this code to style the border like a button. I chose a color, size and style that will were applied to all selected headings*/
+    background-color: lavender;
+        /*I used this code to apply the same background color (inside the block/border) to all selected headings */
 }
 
 .site-title{
+        /*this code represents */
     color: purple;
     margin: 3;
         /*this code permits to add space externally */
@@ -30,66 +40,68 @@ h1, h2, h3, h4{
 header{
     padding-block-end: 20px;
     padding-block-start: 15px;
-        /*this code is used to add space between elements in a specific area */
-}
-
-h2{
-    display: inline-block;
-        /* */
-    border: #ec6dfa 5px groove;
-    background-color: lavender;
-}
-
-h3{
-    display: inline-block;
-    border: #ec6dfa 5px groove;
-    background-color: lavender;
-    margin-right: 5px;
-}
-
-h4{
-    display: inline-block;
-    border: #ec6dfa 5px groove;
-    background-color: lavender;
+        /*these code is used to add space between elements in a specific area */
 }
 
 #my-image{
+        /*this code is used to identify an image in the index.html file. I used it to target my image so that I can style it as I want*/
     box-shadow: 0 0 1px 2px black;
+        /*this code was used to add a box-shadow style to my image specifying the size, thickness and the color*/
+
 }
 
 ul{
+        /*this code was used to only target the unordered list when styling*/
     list-style: square;
+        /*this code permits to change the list style. In this case, I used it to list my hobbies with squares instead of bullet points*/
 }
 
 nav{
+        /*this code permits to only target the navigation links*/
     margin: 0px;
+        /*this code represents the amount of space */
     text-align:right;
+        /*I used this code to add style by aligning the navigation links (text) to the right*/
 }
 
 nav ul{
+        /*I used this code to specifically target the unordered navigation links*/
     list-style: none;
+        /*I used this code to not display listed items in a "list form" like with bullet points*/
 }
 
 nav li{
+        /*I used this code to specifically target the navigation links, so they would be displayed according to my liking*/
     display: inline-block;
+        /*I used this code so the nav links would be next to each other in a block style*/
     margin-right: 6px;
     margin-left: 6px;
+        /*I used this code to specifically put the same amount of space between navigation links*/
     border:#f9affb 3px dotted;
+        /*I used this code so each of the hyperlinks would display a pink dotted border*/
 }
 
 nav a{
+        /*this code represents */
     text-decoration: none;
+        /*this code represents */
     padding: 2px 2px;
+        /*this code represents */
     margin: 0px;
     border-radius: 5px;
+        /*this code represents */
 }
 
 nav a:hover{
+        /*this code represents */
     background-color:#f9affb;
+        /*this code represents */
 }
 
 .notes-title{
+        /*this code represents */
     display: inline-block;
     border: #ec6dfa 5px groove;
     background-color: lavender;
+        /*this code represents */
 }
