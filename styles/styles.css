@@ -1,17 +1,56 @@
 body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18 px;
-    background-color:#F8F5F2;
+        /* this code is used to target all the content on the site*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
+        /* this code is used when choosing a group fonts to display on the site, so if the user don't have the first one, another font from the list will be displayed. I used it in the body tag to apply the same font on the whole site*/
+    font-size: 18px;
+        /* this code is used to apply the font-size. I used it in the body tag so all helements will have the same size*/
+    background-color:rgb(245, 240, 254);
+        /*this code is used to add a background color to an element on the site. In this case, I used in the body tag to target the whole site*/
+    color: rgb(78, 5, 78);
+        /*this code is used to add color to the text. Since used in the body tag, it applied the same color to all texts displayed on the site*/
 }
 
 footer,header{
-background-color:burlywood;
-text-align: center;
+    background-color:#ffbee3bf;
+    text-align: center;
+    /*this code is used to align text to the left, center or right on the site. I used it to specifically align the text in the header and footer to the center of the page*/
+}
+/* Selecting multiple elements using "," in between them permits to target them specifically, to display them according to my liking . I used the code to display all headings the same way*/
+h1, h2, h3, h4{
+    color: purple;
+        /* */
 }
 
-.site-title {
-color: chocolate;
-padding: 20px;
+.site-title{
+    color: purple;
+    margin: 3;
+        /*this code permits to add space externally */
+}
+
+header{
+    padding-block-end: 20px;
+    padding-block-start: 15px;
+        /*this code is used to add space between elements in a specific area */
+}
+
+h2{
+    display: inline-block;
+        /* */
+    border: #ec6dfa 5px groove;
+    background-color: lavender;
+}
+
+h3{
+    display: inline-block;
+    border: #ec6dfa 5px groove;
+    background-color: lavender;
+    margin-right: 5px;
+}
+
+h4{
+    display: inline-block;
+    border: #ec6dfa 5px groove;
+    background-color: lavender;
 }
 
 #my-image{
@@ -22,19 +61,35 @@ ul{
     list-style: square;
 }
 
+nav{
+    margin: 0px;
+    text-align:right;
+}
+
 nav ul{
     list-style: none;
 }
 
+nav li{
+    display: inline-block;
+    margin-right: 6px;
+    margin-left: 6px;
+    border:#f9affb 3px dotted;
+}
+
 nav a{
     text-decoration: none;
+    padding: 2px 2px;
+    margin: 0px;
+    border-radius: 5px;
 }
 
-nav{
-background:scroll;
-border:peachpuff 5px solid;
+nav a:hover{
+    background-color:#f9affb;
 }
 
-nav a:active{
-    background-color: brown;
+.notes-title{
+    display: inline-block;
+    border: #ec6dfa 5px groove;
+    background-color: lavender;
 }
