@@ -1,40 +1,20 @@
 body{
         /* this code is used to target all the content on the site*/
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
         /* this code is used when choosing a group fonts to display on the site, so if the user don't have the first one, another font from the list will be displayed. I used it in the body tag to apply the same font on the whole site*/
     font-size: 18px;
         /* this code is used to apply the font-size. I used it in the body tag so all helements will have the same size*/
-    background-color:rgb(245, 240, 254);
+    background-color:rgb(244, 240, 255);
         /*this code is used to add a background color to an element on the site. In this case, I used in the body tag to target the whole site*/
-    color: rgb(78, 5, 78);
+    color: rgb(61, 0, 85);
         /*this code is used to add color to the text. Since used in the body tag, it applied the same color to all texts displayed on the site*/
 }
 
 footer,header{
-    background-color:#ffbee3bf;
-    /*this code was used to add a specific color background to the the selected zones */
+    background-color: hsl(318, 93%, 89%);
+    /*this code was used to add a specific background color to the selected zones*/
     text-align: center;
     /*this code is used to align text to the left, center or right on the site. I used it to specifically align the text in the header and footer to the center of the page*/
-}
-
-/* Selecting multiple elements using "," in between them permits to target them specifically, to display them according to my liking . I used the code to display those headings the same way*/
-
-h2, h3, h4{
-    color: purple;
-        /*I used this code to specifically target those headings to be the same color */
-    display: inline-block;
-        /* I used this code to display the block only around the headings and not all the way*/
-    border: #ec6dfa 5px groove;
-        /*I used this code to style the border like a button. I chose a color, size and style that will were applied to all selected headings*/
-    background-color: lavender;
-        /*I used this code to apply the same background color (inside the block/border) to all selected headings */
-}
-
-.site-title{
-        /*this code represents */
-    color: purple;
-    margin: 3;
-        /*this code permits to add space externally */
 }
 
 header{
@@ -43,11 +23,28 @@ header{
         /*these code is used to add space between elements in a specific area */
 }
 
+/* Selecting multiple elements using "," in between them permits to target them specifically, to display them according to my liking . I used the code to display those headings the same way*/
+.site-title{
+        /*this code was used to target the h1 of the main page to give it a proper style*/
+    color:purple;
+    margin: 3;
+        /*this code permits to add space externally. I used it to add equal space on both sides of the title*/
+}
+h2, h3, h4{
+    color: rgb(147, 0, 147);
+        /*I used this code to specifically target those headings to be the same color */
+    display: inline-block;
+        /* I used this code to display the block only around the headings and not all the way*/
+    border: #d453d6 5px groove;
+        /*I used this code to style the border like a button. I chose a color, size and style that will were applied to all selected headings*/
+    background-color: lavender;
+        /*I used this code to apply the same background color (inside the block/border) to all selected headings */
+}
+
 #my-image{
         /*this code is used to identify an image in the index.html file. I used it to target my image so that I can style it as I want*/
     box-shadow: 0 0 1px 2px black;
         /*this code was used to add a box-shadow style to my image specifying the size, thickness and the color*/
-
 }
 
 ul{
@@ -77,31 +74,34 @@ nav li{
     margin-right: 6px;
     margin-left: 6px;
         /*I used this code to specifically put the same amount of space between navigation links*/
-    border:#f9affb 3px dotted;
+    border:#ffa2e9 3px dotted;
         /*I used this code so each of the hyperlinks would display a pink dotted border*/
+    background-color:lavender;
 }
 
 nav a{
-        /*this code represents */
+        /*this code selects all the hyperlinks inside the nav section*/
     text-decoration: none;
-        /*this code represents */
+        /*this code permits to delete any text decoration, the underline in this case*/
     padding: 2px 2px;
-        /*this code represents */
+        /*these codes add space inside the left and right sides of the element. I used them to make the button wider without changing the text size*/
     margin: 0px;
+        /*this code creates space outside the element by separating it from other elements on the page. I used it to separate the links*/
     border-radius: 5px;
-        /*this code represents */
+        /*this code rounds the corners of an element. I used it to style the links' appearance*/
 }
 
 nav a:hover{
-        /*this code represents */
-    background-color:#f9affb;
-        /*this code represents */
+        /* This code changes the appearance of a navigation link when the user places the mouse over it. I used this this code to target all the hyperlinks*/ 
+     background-color:hsl(318, 100%, 88%);
+        /*I used this code to change the appearance's color*/
 }
 
 .notes-title{
-        /*this code represents */
+        /*this code was used to target the h1 in the other html page (notes)*/
     display: inline-block;
-    border: #ec6dfa 5px groove;
+    border: #d453d6 5px groove;
     background-color: lavender;
-        /*this code represents */
+    color:rgb(147, 0, 147);
+        /*I used these codes to style that heading the same way as the others in the main page*/
 }
