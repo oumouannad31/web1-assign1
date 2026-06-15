@@ -1,6 +1,6 @@
 body{
         /* this code is used to target all the content on the site*/
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         /* this code is used when choosing a group fonts to display on the site, so if the user don't have the first one, another font from the list will be displayed. I used it in the body tag to apply the same font on the whole site*/
     font-size: 18px;
         /* this code is used to apply the font-size. I used it in the body tag so all helements will have the same size*/
