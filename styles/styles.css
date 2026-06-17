@@ -27,7 +27,7 @@ header{
 .site-title{
         /*this code was used to target the h1 of the main page to give it a proper style*/
     color:purple;
-    margin: 3;
+    margin: 3px;
         /*this code permits to add space externally. I used it to add equal space on both sides of the title*/
 }
 h2, h3, h4{
